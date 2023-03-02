@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vinayak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <div class="headder">
+        <div class="hup">USE CODE FY20 to get $100 off on orders over $1000</div>
+        <div class="hm">
+            
+            <div style="display: flex;">
+                <span id="hamburger"></span>
+                <img src="images/logo.svg" alt="" srcset="">
+            </div>
+            <div id="form">
+                <input type="search" id="searchbar"
+                    placeholder="Search Products by title, supplier, sku, category, brand etc…">
+                <button type="submit" id="searchbutton" title="Search" class="action search" aria-label="Search"
+                    disabled=""></button>
+            </div>
+            <div style="display: flex;">
+            <div class="icons1">
+                <ul>
+                    <li id="login-link"><a href="">Login/signup</a></li>
+                </ul>
+            </div>
+            <div class="icons1">
+                <ul>
+                    <li id="Minicart"><a href="">MiniCart</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div id="bottom">
+            <div class="navitem">Electronic</div>
+            <div class="navitem">fashion</div>
+            <div class="navitem">home & kitchen</div>
+            <div class="navitem">beauty & health</div>
+            <div class="navitem">baby & Toys</div>
+            <div class="navitem">sports</div>
+            <div class="navitem">grocery</div>
+            <div class="navitem">offer zone</div>
+        </div>
+    </div>
+    <div id="corosel" style="overflow: hidden;">
+        <div class="your-class">
+            <div><img src="images/Group 4839.png" alt="" srcset=""></div>
+            <div><img src="images/Group 4839.png" alt="" srcset=""></div>
+            <div><img src="images/Group 4839.png" alt="" srcset=""></div>
+            <div><img src="images/Group 4839.png" alt="" srcset=""></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.your-class').slick({
+                autoplay: true,
+                arrows: true,
+                autoplaySpeed: 2000,
+            });
+        });
+
+    </script>
+</body>
+
+</html>
